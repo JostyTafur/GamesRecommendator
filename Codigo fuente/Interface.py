@@ -211,7 +211,7 @@ def cerrar_app():
 # Ejemplo de uso
 grafo = Grafo()
 
-df = pd.read_csv('Dataset_Videogames.csv', delimiter=';')
+df = pd.read_csv('Dataset/Dataset_Videogames.csv', delimiter=';')
 
 # Recorrer cada fila del dataframe
 for index, row in df.iterrows():
